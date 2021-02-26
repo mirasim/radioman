@@ -56,7 +56,7 @@ class RadioTest {
     void setStation() {
         Radio friends = new Radio();
         friends.setCurrentStation(6);
-        assertEquals(6, friends.getCurrentStation());
+        assertEquals(6, friends.getCurrentStation() );
     }
 
     @Test
