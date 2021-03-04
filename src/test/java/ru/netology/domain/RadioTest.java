@@ -73,6 +73,11 @@ class RadioTest {
         friends.volumeDown();
         assertEquals(0, friends.getCurrentStation());
     }
+    @Test
+    void NewNotStandartRadio() {
+        Radio friends = new Radio(40);
+        assertEquals(40, friends.getStationCount());
+    }
 
     @Test
     void VolumeUpMore100() {

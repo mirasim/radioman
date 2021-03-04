@@ -9,9 +9,23 @@ public class Radio {
         stationCount = 10;
     }
 
+    public int getStationCount() {
+        return stationCount;
+    }
+
+    public void setStationCount(int stationCount) {
+        this.stationCount = stationCount;
+    }
+
+    public Radio(int stationCount) {
+        this.stationCount = stationCount;
+    }
+
     public int getCurrentVolume() {
         return currentVolume;
     }
+
+
 
     void nextStation() {
 
