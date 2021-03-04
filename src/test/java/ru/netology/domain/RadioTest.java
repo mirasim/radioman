@@ -73,10 +73,106 @@ class RadioTest {
         friends.volumeDown();
         assertEquals(0, friends.getCurrentStation());
     }
+    @Test
+    void NewNotStandartRadio() {
+        Radio friends = new Radio(40);
+        assertEquals(40, friends.getStationCount());
+    }
 
     @Test
-    void VolumeUpMore10() {
+    void VolumeUpMore100() {
         Radio friends = new Radio();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
+        friends.volumeUp();
         friends.volumeUp();
         friends.volumeUp();
         friends.volumeUp();
@@ -99,6 +195,4 @@ class RadioTest {
 
         assertEquals(0, friends.getCurrentVolume());
     }
-
-
 }
